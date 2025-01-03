@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="burger.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+  <header>
+    <div class="nav">
+
+      <a href="#" class="logo">
+        <ion-icon name="fast-food"></ion-icon>
+        Burger Maniya
+      </a>
+         <div>
+           <ul>
+             <li>Home</li>
+             <li>About us</li>
+             <li>Menu's</li>
+             <li>Details</li>
+           </ul>
+         </div>
+      <div class="box">
+        <div class="cart-count">0</div>
+        <ion-icon name="cart" id="cart-icon" ><i class="fa-solid fa-cart-plus"></i></ion-icon>
+      </div>
+
+     <div class="btns">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+
+     </div>
+
+    </div>
+      <div class="cart">
+        <div class="cart-title">Cart Items</div>
+        <div class="cart-content">
+<!--
+          <div class="cart-box">
+            <img src="images/97.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Special Dosai</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.72</div>
+                 <div class="cart-amt">Rs.72</div>
+             </div>
+              <input type="number" value="1" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="images/97.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Special Dosai</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.72</div>
+                 <div class="cart-amt">Rs.72</div>
+             </div>
+              <input type="number" value="1" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+        -->
+        </div>
+        
+      <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">Rs.0</div>
+      </div>
+
+      <button class="btn-buy">Place Order</button>
+
+      <ion-icon name="close" id="cart-close"></ion-icon>
+
+      </div>
+      
+  </header>
+
+
+  <div class="About">
+    <img src="burger.png">
+    <div class="Details">
+      <h2>Welcome to</h2>
+      <h1>Burger Maniya</h1>
+      <p>Burger is a calorie-dense meal, which is often loaded with sodium, trans fats, sugar and preservatives. Regular consumption of store-bought burgers can lead to weight gain.
+        The Health benefits of burgers may be varied, depending on the meat, greens and condiments that are used. </p>
+    </div>
+    <button >view More</button>
+  </div>
+
+
+  
+   <div class="video">
+    <video src="burger.mp4" muted autoplay loop="infinite"></video>
+    <p>it's not just <br>food,it's an <br>Experiance<br></p>
+    <button>View more &nbsp;&nbsp;<i class="fa-solid fa-arrow-turn-down"></i></button>
+   </div>
+ 
+
+
+  <div class="container">
+    <h2 class="title">Discover the Best Food</h2>
+    <div class="shop-content">
+
+
+      <div class="food-box">
+        <div class="pic">
+          <img src="burger.png" class="food-img">
+        </div>
+        <h2 class="food-title">Burger</h2>
+        <span class="food-price">Rs.40</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+
+      <div class="food-box">
+        <div class="pic"><img src="hotdog.png" class="food-img"></div>
+        <h2 class="food-title">Hot Dog</h2>
+        <span class="food-price">Rs.65</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="food-box">
+        <div class="pic"><img src="french fries.png" class="food-img"></div>
+        <h2 class="food-title">French Fries</h2>
+        <span class="food-price">Rs.80</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="food-box">
+        <div class="pic"><img src="pizza.png" class="food-img"></div>
+        <h2 class="food-title">Pizza</h2>
+        <span class="food-price">Rs.55</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="food-box">
+        <div class="pic"><img src="taco.png" class="food-img"></div>
+        <h2 class="food-title">Taco</h2>
+        <span class="food-price">Rs.25</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="food-box">
+        <div class="pic"><img src="sandwich.png" class="food-img"></div>
+        <h2 class="food-title">Sandwich</h2>
+        <span class="food-price">Rs.150</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+  
+      <div class="food-box">
+        <div class="pic"><img src="shawarma.png" class="food-img"></div>
+        <h2 class="food-title">Shawarma</h2>
+        <span class="food-price">Rs.65</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+  
+      <div class="food-box">
+        <div class="pic"><img src="friedchicken.png" class="food-img"></div>
+        <h2 class="food-title">Fried Chiken</h2>
+        <span class="food-price">Rs.65</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+    </div>
+  </div>
+
+   <div class="client">
+    <h1>Our Client Review's</h1>
+    <div class="box">
+
+      <div class="inner-box">
+      <div class="img">
+      <img src="smith.jpg">
+      </div>
+      <h2>Mr Smith</h2>
+        <h3>It is very tasty and crispy We once eat can't attention on other food</h3>
+        <h4>&#9733; &#9733; &#9733; &#9733; &#9733;</h4>
+      </div>
+
+      <div class="inner-box">
+      <div class="img">
+      <img src="bala.jpg">
+      </div>
+      <h2>Miss. Bala</h2>
+        <h3> Saptacha dey......&#128522;</h3>
+      <h4 >&#9733; &#9733; &#9733; &#9733; &#9733;</h4>
+      </div>
+
+      <div class="inner-box">
+        <div class="img">
+        <img src="rizwan.jpg">
+        </div>
+        <h2>Mr Rizwan</h2>
+        <h3>I refer burger maniya but can't explain on words Try to eat</h3>
+          <h4>&#9733; &#9733; &#9733; &#9733; &#9733;</h4>
+      </div>
+
+    </div>
+   </div>
+
+   <div class="footer">
+
+    <h1 class="footer-title"> Details</h1>
+    <div class="feedback">
+        <h1>Send your feedback</h1>
+        <div class="name"><input id="name" type="text" placeholder="Enter your name"></div>
+        <div class="description"> <input id="description" type="text" placeholder="fill your feedback"></div>
+        <div class="starbtn">
+          <button class="star">&#9734;</button>
+          <button class="star">&#9734;</button>
+          <button class="star">&#9734;</button>
+          <button class="star">&#9734;</button>
+          <button class="star">&#9734;</button>
+        </div>
+         <h2 class="rate">0 of 5</h2>
+        <button class="submit">Submit</button>
+
+    </div>
+    <div class="follow">
+        <div class="one">
+          <ion-icon name="fast-food"></ion-icon>
+          <h1>Burger</h1>
+          <h2>Maniya</h2>
+        </div>
+        <hr>
+        <br>
+        <div class="two">
+          <h1>Follow us</h1> <br>
+          <ul>
+            <li class="fb"><i class="fa-brands fa-facebook" id="fb"></i></li>
+            
+            <li ><i class="fa-brands fa-square-whatsapp" id="wa"></i></li>
+            <li ><i class="fa-brands fa-youtube" id="yt"></i></li>
+            <li ><i class="fa-brands fa-square-twitter" id="tw"></i></li>
+          </ul>
+        </div>
+    </div>
+   </div>
+  
+  <script src="burger.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
